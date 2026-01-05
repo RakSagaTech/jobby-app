@@ -1,0 +1,137 @@
+.nav-container {
+  width: 100%;
+  padding: 20px;
+  background-color: #272727;
+}
+
+@media screen and (min-width: 576px) {
+  .nav-container {
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-container {
+    padding: 32px 50px;
+  }
+}
+
+.header-sm-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .header-sm-container {
+    display: none;
+  }
+}
+
+.header-website-logo {
+  width: 66px;
+}
+
+@media screen and (min-width: 576px) {
+  .header-website-logo {
+    width: 74px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-website-logo {
+    width: 120px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header-website-logo {
+    width: 140px;
+  }
+}
+
+.header-icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0px;
+  list-style-type: none;
+  margin: 0px;
+}
+
+.nav-link-item {
+  text-decoration: none !important;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.header-icon {
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  color: #f8fafc;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 576px) {
+  .header-icon {
+    margin-left: 26px;
+    font-size: 28px;
+  }
+}
+
+.header-lg-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .header-lg-container {
+    display: none;
+  }
+}
+
+.header-list-container {
+  padding-left: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.list-item {
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-left: 24px;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.logout-sm-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  font-size: 24px;
+  padding: 0px;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.logout-btn {
+  font-family: 'Roboto';
+  background-color: #6366f1;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 9px 36px;
+  font-weight: 500;
+  border-radius: 6px;
+}
