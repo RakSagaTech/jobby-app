@@ -78,8 +78,8 @@
   color: #ffffff;
 }
 
-@media screen and (min-width: 576px){
-  .search-icon-btn{
+@media screen and (min-width: 576px) {
+  .search-icon-btn {
     padding-left: 26px;
     padding-right: 26px;
     font-size: 18px;

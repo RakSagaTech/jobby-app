@@ -101,11 +101,11 @@ class Profile extends Component {
   renderProfileView = () => {
     const {apiStatus} = this.state
     switch (apiStatus) {
-      case 'IN_PROGRESS':
+      case apiStatusConstants.inProgress:
         return this.renderLoadingView()
-      case 'SUCCESS':
+      case apiStatusConstants.success:
         return this.renderProfileDetails()
-      case 'FAILURE':
+      case apiStatusConstants.failure:
         return this.renderFailureView()
       default:
         return null
