@@ -11,6 +11,12 @@
   }
 }
 
+@media screen and (min-width: 992px) {
+  .profile-view-container {
+    height: 204px;
+  }
+}
+
 .loader-container {
   display: flex;
   justify-content: center;
@@ -32,8 +38,14 @@
 @media screen and (min-width: 576px) {
   .profile-container {
     padding: 28px 18px;
-    border-bottom-left-radius: 11px;
-    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .profile-container {
+    padding-bottom: 36px;
   }
 }
 
@@ -74,6 +86,25 @@
 @media screen and (min-width: 576px) {
   .short-bio {
     font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .short-bio {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .short-bio {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .short-bio {
+    font-size: 18px;
   }
 }
 

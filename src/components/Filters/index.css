@@ -1,0 +1,125 @@
+.filter-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+@media screen and (min-width: 576px) {
+  .filter-heading {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .filter-heading {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .filter-heading {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .filter-heading {
+    font-size: 22px;
+  }
+}
+
+.filter-lists {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.filter-item {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+  .filter-item {
+    margin-top: 20px;
+  }
+}
+
+.filter-hr-line {
+  margin-bottom: 16px;
+  margin-top: 14px;
+}
+
+@media screen and (min-width: 576px) {
+  .filter-hr-line {
+    margin-bottom: 20px;
+    margin-top: 26px;
+  }
+}
+
+.filter-input {
+  width: 12px;
+  height: 12px;
+}
+
+@media screen and (min-width: 576px) {
+  .filter-input {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .filter-input {
+    width: 16px;
+    height: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .filter-input {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .filter-input {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.filter-label {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 576px) {
+  .filter-label {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .filter-label {
+    font-size: 15px;
+    margin-left: 7px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .filter-label {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .filter-label {
+    font-size: 20px;
+  }
+}
