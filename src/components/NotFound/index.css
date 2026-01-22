@@ -26,8 +26,8 @@
   margin-top: 40px;
 }
 
-@media screen and (min-width: 768px){
-  .not-found-heading{
+@media screen and (min-width: 768px) {
+  .not-found-heading {
     font-size: 34px;
   }
 }
@@ -42,8 +42,8 @@
   margin-top: 0px;
 }
 
-@media screen and (min-width: 768px){
-  .not-found-description{
+@media screen and (min-width: 768px) {
+  .not-found-description {
     font-size: 15px;
   }
 }

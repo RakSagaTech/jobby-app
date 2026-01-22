@@ -1,4 +1,5 @@
 import {Component} from 'react'
+import {Redirect} from 'react-router-dom'
 import {BsSearch} from 'react-icons/bs'
 import Loader from 'react-loader-spinner'
 import Cookies from 'js-cookie'
@@ -213,6 +214,10 @@ class Jobs extends Component {
 
   render() {
     const {searchInput} = this.state
+    const jwtToken = Cookies.get('jwt_token')
+    if (jwtToken === undefined) {
+      return <Redirect to="/login" />
+    }
     return (
       <>
         <Header />
