@@ -1,0 +1,486 @@
+.jobitem-container {
+  background-color: #000000;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .jobitem-container {
+    padding: 32px 50px;
+  }
+}
+
+.jobitem-details-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .jobitem-details-container {
+    padding: 40px 30px;
+  }
+}
+
+.jobitem-logo-title-rating-container {
+  display: flex;
+}
+
+.jobitem-company-logo {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobitem-company-logo {
+    width: 62px;
+    height: 62px;
+    margin-right: 16px;
+  }
+}
+
+.jobitem-title-rating-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.jobitem-title {
+  font-size: 18px;
+  color: #f1f5f9;
+  font-weight: 500;
+  margin: 0px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .jobitem-title {
+    font-size: 22px;
+  }
+}
+
+.jobitem-rating-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobitem-rating-container {
+    margin-top: 16px;
+  }
+}
+
+.jobitem-star-icon {
+  height: 16px;
+  width: 16px;
+  color: #fbbf24;
+  margin-right: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobitem-star-icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+.jobitem-rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobitem-rating {
+    font-size: 22px;
+  }
+}
+
+.jobitem-location-employment-package-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
+  margin-bottom: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobitem-location-employment-package-container {
+    margin-top: 16px;
+    margin-bottom: 0px;
+  }
+}
+
+.jobitem-location-employment-container {
+  display: flex;
+  align-items: center;
+}
+
+.jobitem-location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobitem-location-container {
+    margin-right: 26px;
+  }
+}
+
+.jobitem-location-icon {
+  height: 14px;
+  width: 14px;
+  color: #f8fafc;
+  margin-right: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobitem-location-icon {
+    height: 22px;
+    width: 22px;
+    margin-right: 8px;
+  }
+}
+
+.jobitem-location {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .jobitem-location {
+    font-size: 14px;
+  }
+}
+
+.jobitem-employment-type-container {
+  display: flex;
+  align-items: center;
+}
+
+.jobitem-briefcasefill-icon {
+  height: 14px;
+  width: 14px;
+  color: #f8fafc;
+  margin-right: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobitem-briefcasefill-icon {
+    height: 22px;
+    width: 22px;
+    margin-right: 10px;
+  }
+}
+
+.jobitem-employment-type {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .jobitem-employment-type {
+    font-size: 14px;
+  }
+}
+
+.jobitem-package {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .jobitem-package {
+    font-size: 16px;
+  }
+}
+
+.jobitem-horizontal-line {
+  border: 1px solid #64748b;
+  width: 100%;
+  margin: 0px;
+}
+
+.jobitem-description-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobitem-description-heading {
+    font-size: 21px;
+    margin-top: 20px;
+  }
+}
+
+.jobitem-description {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 0px;
+  line-height: 1.7;
+}
+
+@media screen and (min-width: 768px) {
+  .jobitem-description {
+    font-size: 14.5px;
+  }
+}
+
+.jobitem-loader-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jobitem-description-visit-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.jobitem-visit-container {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.visit {
+  color: #6366f1;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 450;
+  margin-right: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .visit {
+    font-size: 16px;
+  }
+}
+
+.visit-icon {
+  color: #6366f1;
+  height: 13px;
+  width: 13px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .visit-icon {
+    height: 16px;
+    width: 16px;
+  }
+}
+
+.skill-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .skill-heading {
+    font-size: 18px;
+    margin-top: 14px;
+  }
+}
+
+.skills-list {
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.life-at-company-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .life-at-company-heading {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
+
+.life-at-company-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .life-at-company-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+.life-at-company-description {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14.4px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+@media screen and (min-width: 768px) {
+  .life-at-company-description {
+    font-size: 13.5px;
+    margin-top: 0px;
+    width: 56%;
+  }
+}
+
+.life-at-company-img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .life-at-company-img {
+    width: 38%;
+  }
+}
+
+.similar-job-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-job-heading {
+    font-size: 25px;
+    margin-top: 40px;
+  }
+}
+
+.similar-job-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-job-list {
+    flex-direction: row;
+  }
+}
+
+.similarjob-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  height: 100vh;
+}
+
+.similarjob-failure-img {
+  width: 70%;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .similarjob-failure-img {
+    width: 600px;
+    margin-top: 26px;
+  }
+}
+
+.similarjob-failure-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .similarjob-failure-heading {
+    font-size: 48px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+.similarjob-failure-description {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 13px;
+  margin-top: 0px;
+  width: 60%;
+  text-align: center;
+  line-height: 1.8;
+}
+
+@media screen and (min-width: 768px) {
+  .similarjob-failure-description {
+    font-size: 16px;
+  }
+}
+
+.similarjob-retry-btn {
+  background-color: #4f46e5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px 26px;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .similarjob-retry-btn {
+    padding: 15px 42px;
+    font-size: 16px;
+  }
+}
+
+.similarjob-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  height: 100vh;
+}
