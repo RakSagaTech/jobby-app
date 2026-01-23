@@ -48,7 +48,7 @@ const Filters = props => {
                 id={salaryRangeId}
                 className="filter-input"
                 onClick={() => onChangeSalaryRange(salaryRangeId)}
-                name="salaryRange"
+                name="salary"
               />
               <label htmlFor={salaryRangeId} className="filter-label">
                 {label}

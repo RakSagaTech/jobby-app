@@ -141,3 +141,8 @@
     font-size: 18px;
   }
 }
+
+
+.nav-link-item {
+  text-decoration: none !important;
+}

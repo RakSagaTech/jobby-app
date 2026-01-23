@@ -99,7 +99,6 @@ class Jobs extends Component {
       this.setState({
         jobsList: formattedData,
         apiStatus: apiStatusConstants.success,
-        searchInput: '',
       })
     } catch (err) {
       this.setState({
@@ -130,18 +129,14 @@ class Jobs extends Component {
   }
 
   onClickSearch = () => {
-    const {searchInput} = this.state
-
-    if (searchInput !== '') {
-      this.getJobDetails()
-    }
+    this.getJobDetails()
   }
 
   renderFailureView = () => (
     <div className="failure-view-container">
       <img
-        src="https://assets.ccbp.in/frontend/react-js/no-jobs-img.png "
-        alt="no jobs"
+        src="https://assets.ccbp.in/frontend/react-js/failure-img.png"
+        alt="failure view"
         className="failure-img"
       />
       <h1 className="oops"> Oops! Something Went Wrong </h1>
@@ -162,13 +157,13 @@ class Jobs extends Component {
   renderNoJobsView = () => (
     <div className="no-jobs-container">
       <img
-        src="https://assets.ccbp.in/frontend/react-js/failure-img.png"
-        alt="failure view"
+        src="https://assets.ccbp.in/frontend/react-js/no-jobs-img.png "
+        alt="no jobs"
         className="no-jobs-img"
       />
       <h1 className="no-jobs"> No Jobs Found </h1>
       <p className="no-jobs-description">
-        We could not find any jobs. Try other filters.
+        We could not find any jobs. Try other filters
       </p>
     </div>
   )

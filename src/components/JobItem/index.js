@@ -139,7 +139,7 @@ class JobItem extends Component {
           <div className="jobitem-logo-title-rating-container">
             <img
               src={companyLogoUrl}
-              alt="company logo"
+              alt="job details company logo"
               className="jobitem-company-logo"
             />
             <div className="jobitem-title-rating-container">
@@ -180,7 +180,7 @@ class JobItem extends Component {
           <h1 className="skill-heading">Skills</h1>
           <ul className="skills-list">
             {skills.map(eachSkill => (
-              <Skills key={id} skillDetails={eachSkill} />
+              <Skills key={eachSkill.name} skillDetails={eachSkill} />
             ))}
           </ul>
           <h1 className="life-at-company-heading">Life at Company</h1>
@@ -198,7 +198,10 @@ class JobItem extends Component {
         <h1 className="similar-job-heading">Similar Jobs</h1>
         <ul className="similar-job-list">
           {similarJobs.map(eachSimilarJob => (
-            <SimilarJobs key={id} smiliarJobDetails={eachSimilarJob} />
+            <SimilarJobs
+              key={eachSimilarJob.id}
+              smiliarJobDetails={eachSimilarJob}
+            />
           ))}
         </ul>
       </div>
